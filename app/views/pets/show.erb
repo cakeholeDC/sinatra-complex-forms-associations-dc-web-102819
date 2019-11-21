@@ -2,3 +2,6 @@
 <h4>Owners:</h4>
 
 <p><a href="../../owners/<%= @pet.owner_id %>" ><%= @owners.find(@pet.owner_id).name %></a> is mine.</p>
+
+
+<a href="/pets/<%= @pet.id%>/edit">Edit This Pet</a>
